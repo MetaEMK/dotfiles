@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	archlinux	:/opt/DataGrip-2023.3.4	1	zsh	:
+pane	0	2	0	:-	1	root@archlinux:/usr/share/applications	:/usr/share/applications	1	sudo	:sudo su
+window	0	1	:zsh	1	:*	b71d,281x71,0,0,0	:
+window	0	2	:sudo	0	:-	b71e,281x71,0,0,1	:
+state	0	
