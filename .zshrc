@@ -11,18 +11,13 @@ alias ll='ls -lh'
 alias la='ls -lha'
 
 function nvim_override() {
-    # Überprüfen, ob der Befehl nvim oder vim ist
     if [[ $1 == "nvim" || $1 == "vim" ]]; then
-        # Überprüfen, ob keine Argumente oder nur '.' als Argument übergeben wurden
         if [[ $# -eq 1 || ( $# -eq 2 && $2 == "." ) ]]; then
-            # nvim mit '.' als Argument ausführen
             command nvim .
         else
-            # Ursprünglichen Befehl ausführen
             command "$@"
         fi
     else
-        # Ursprünglichen Befehl ausführen
         command "$@"
     fi
 }
