@@ -50,8 +50,8 @@
         "format": "{}",
         "rotate": 0,
         "exec": "echo ; echo  logout",
-        "on-click": "~/.local/share/bin/logoutlaunch.sh 2",
-        "on-click-right": "/.local/share/bin/logoutlaunch.sh 1",
+        "on-click": "~/.local/share/bin/logoutlaunch.sh 1",
+        "on-click-right": "/.local/share/bin/logoutlaunch.sh 2",
         "interval": 86400, // once every day
         "tooltip": true
     },
